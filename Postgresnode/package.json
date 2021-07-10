@@ -1,0 +1,27 @@
+{
+  "name": "postgres-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "migrate":"node-pg-migrate"
+  },
+  "author": "Sanskar Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^27.0.4",
+    "node-pg-migrate": "^5.9.0",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "supertest": "^6.1.3",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.9",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
